@@ -6,7 +6,7 @@ type Props = {
 
 export function ServiceCard({ index, title, blurb }: Props) {
   return (
-    <div className="group border-b-2 border-ink p-8 transition-colors last:border-b-0 hover:bg-brand/5 md:border-b-2 lg:p-10">
+    <div className="group h-full p-8 transition-colors hover:bg-brand/5 lg:p-10">
       <div className="mb-8 grid h-12 w-12 place-items-center bg-ink font-bold text-paper transition-colors group-hover:bg-brand">
         {index}
       </div>
