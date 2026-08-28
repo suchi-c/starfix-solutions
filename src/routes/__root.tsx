@@ -11,6 +11,8 @@ import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
+import { Navbar } from "../components/starfix/Navbar";
+import { Footer } from "../components/starfix/Footer";
 
 function NotFoundComponent() {
   return (
