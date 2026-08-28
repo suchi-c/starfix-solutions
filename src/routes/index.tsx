@@ -137,12 +137,9 @@ function Home() {
           aside="From building your digital presence to reaching the right audience, we provide creative, strategic, and technology-driven solutions designed to support your business growth."
         />
 
-        <div className="grid border-2 border-ink md:grid-cols-2 lg:grid-cols-3">
-          {SERVICES_GLIMPSE.map((service, i) => (
-            <div
-              key={service.id}
-              className={`border-ink ${i % 3 !== 2 ? "lg:border-r-2" : ""} ${i % 2 === 0 ? "md:border-r-2 lg:border-r-0" : ""} ${i % 3 !== 2 ? "lg:border-r-2" : ""}`}
-            >
+        <div className="grid gap-0.5 border-2 border-ink bg-ink md:grid-cols-2 lg:grid-cols-3">
+          {SERVICES_GLIMPSE.map((service) => (
+            <div key={service.id} className="bg-surface">
               <ServiceCard index={service.index} title={service.title} blurb={service.blurb} />
             </div>
           ))}
