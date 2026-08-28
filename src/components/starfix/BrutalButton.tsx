@@ -50,7 +50,7 @@ export function BrutalLink({
   return (
     <Link
       to={to}
-      hash={hash}
+      {...(hash ? { hash } : {})}
       className={`${base} ${sizes[size]} ${variants[variant]} ${className}`}
     >
       {children}
