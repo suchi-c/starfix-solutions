@@ -72,7 +72,7 @@ export type ServiceDetail = ServiceSummary & {
 
 export const SERVICE_DETAILS: ServiceDetail[] = [
   {
-    ...SERVICES_GLIMPSE[0],
+    ...SERVICES_GLIMPSE[0]!,
     subheading: "Your business is online, but the right people are not discovering it.",
     blurb:
       "We develop digital strategies designed to improve visibility, engagement, audience reach, and business opportunities.",
@@ -87,7 +87,7 @@ export const SERVICE_DETAILS: ServiceDetail[] = [
     cta: "Talk to Us About Digital Marketing",
   },
   {
-    ...SERVICES_GLIMPSE[1],
+    ...SERVICES_GLIMPSE[1]!,
     subheading: "Build a Social Presence That Represents Your Brand",
     blurb:
       "We help businesses plan, create, manage, and improve their social media presence.",
@@ -104,7 +104,7 @@ export const SERVICE_DETAILS: ServiceDetail[] = [
     cta: "Talk to Us",
   },
   {
-    ...SERVICES_GLIMPSE[2],
+    ...SERVICES_GLIMPSE[2]!,
     subheading: "Reach the Right People with the Right Strategy",
     blurb:
       "We plan and manage Meta advertising campaigns designed around your business goals, audience, and objectives. Don't just advertise. Reach the right people at the right time.",
@@ -121,7 +121,7 @@ export const SERVICE_DETAILS: ServiceDetail[] = [
     cta: "Talk to Us About Meta Ads",
   },
   {
-    ...SERVICES_GLIMPSE[3],
+    ...SERVICES_GLIMPSE[3]!,
     subheading: "Your Digital Home Starts Here",
     blurb:
       "We design and develop websites that are modern, responsive, easy to use, and built to support your business goals.",
@@ -137,7 +137,7 @@ export const SERVICE_DETAILS: ServiceDetail[] = [
     cta: "Build My Website",
   },
   {
-    ...SERVICES_GLIMPSE[4],
+    ...SERVICES_GLIMPSE[4]!,
     subheading: "Turn Your Idea Into a Digital Experience",
     blurb:
       "We help businesses and startups explore and develop digital applications designed around user needs and business objectives.",
@@ -151,7 +151,7 @@ export const SERVICE_DETAILS: ServiceDetail[] = [
     cta: "Discuss My App",
   },
   {
-    ...SERVICES_GLIMPSE[5],
+    ...SERVICES_GLIMPSE[5]!,
     subheading: "Create Content That Connects",
     blurb:
       "Good content helps your audience understand, remember, and connect with your brand.",
